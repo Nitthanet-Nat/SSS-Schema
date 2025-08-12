@@ -1,0 +1,24 @@
+{
+  "detail": {
+    "core": {
+      "ProjectName": 1.0,
+      "SurveyDate": 1.0,
+      "Operator": 1.0,
+      "SonarModel": 1.0,
+      "BoundingBox": 1.0
+    },
+    "ping": {
+      "PingTime": 1.0,
+      "Latitude": 1.0,
+      "Longitude": 1.0,
+      "Depth": 1.0
+    },
+    "product": {
+      "ProductType": 1.0,
+      "GridResolution": 1.0,
+      "ProcessingWorkflow": 1.0,
+      "License": 1.0
+    }
+  },
+  "overall_pct": 100.0
+}
