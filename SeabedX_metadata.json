@@ -8,7 +8,7 @@
   "@type": "Dataset",
   "name": "SeabedX-DB Demo – Chonburi SSS Mosaic",
   "description": "XTF-derived side-scan sonar mosaic (COG-like) with ping-level JSON-LD metadata.",
-  "identifier": "https://doi.org/10.5281/zenodo.<PUT_DOI>",
+  "identifier": "https://github.com/Nitthanet-Nat/SSS-Schema",
   "url": "https://nitthanet-nat.github.io/SSS-Schema/",
   "version": "0.9",
   "keywords": [
@@ -25,17 +25,17 @@
       "identifier": "https://orcid.org/0000-0000-0000-0000",
       "affiliation": {
         "@type": "Organization",
-        "name": "Marine Institute"
+        "name": "Rangsit University"
       }
     }
   ],
   "publisher": {
     "@type": "Organization",
-    "name": "Marine Institute"
+    "name": "DIT"
   },
   "datePublished": "2025-02-24",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "email": "you@example.com",
+  "email": "nitthanet.n65@rsu.ac.th",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -79,7 +79,7 @@
     "CoreLayer": {
       "ProjectName": "Chonburi Survey",
       "SurveyDate": "2025-02-24",
-      "Operator": "Marine Institute",
+      "Operator": "DIT",
       "SonarModel": "Humminbird",
       "BoundingBox": {
         "minLat": 12.896576468452382,
@@ -35524,7 +35524,7 @@
       "GridResolution": "1 m",
       "ProcessingWorkflow": "XTF2Map ETL (pyxtf+GDAL)",
       "License": "CC-BY 4.0",
-      "DOI": "https://doi.org/10.5281/zenodo.<PUT_DOI>"
+      "DOI": "https://github.com/Nitthanet-Nat/SSS-Schema"
     }
   }
 }
