@@ -7,9 +7,9 @@
     }
   ],
   "@type": "Dataset",
-  "@id": "https://github.com/Nitthanet-Nat/SSS-Schema",
-  "identifier": "https://github.com/Nitthanet-Nat/SSS-Schema",
-  "sameAs": "https://github.com/Nitthanet-Nat/SSS-Schema",
+  "@id": "10.5281/zenodo.xxxxxxx",
+  "identifier": "10.5281/zenodo.xxxxxxx",
+  "sameAs": "10.5281/zenodo.xxxxxxx",
   "name": "SeabedX-DB Demo – Chonburi SSS Mosaic",
   "description": "XTF-derived side-scan sonar mosaic (COG-like) with ping-level JSON-LD metadata.",
   "url": "https://nitthanet-nat.github.io/SSS-Schema/",
@@ -21,6 +21,11 @@
     "JSON-LD",
     "COG"
   ],
+  "subjectOf": [
+    "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords?format=default#Oceans",
+    "http://vocab.nerc.ac.uk/collection/L05/current/156/"
+  ],
+  "language": "en",
   "creator": [
     {
       "@type": "Person",
@@ -43,7 +48,8 @@
   "conditionsOfAccess": "Open access; no authentication required",
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "nitthanet.n65@rsu.ac.th"
+    "email": "nitthanet.n65@rsu.ac.th",
+    "contactType": "technical support"
   },
   "spatialCoverage": {
     "@type": "Place",
@@ -52,6 +58,7 @@
       "box": "12.896576468452382 100.78206711162697 12.897008508311472 100.7828975999759"
     }
   },
+  "temporalCoverage": "2024-09-29T15:00:19.850000Z/2024-09-29T15:01:39.520000Z",
   "variableMeasured": [
     {
       "@type": "PropertyValue",
@@ -63,7 +70,8 @@
   "measurementTechnique": "http://vocab.nerc.ac.uk/collection/L05/current/156/",
   "conformsTo": [
     "https://www.iso.org/standard/44326.html",
-    "http://www.opengis.net/doc/IS/sensorml/2.0"
+    "http://www.opengis.net/doc/IS/sensorml/2.0",
+    "https://stacspec.org/en/stable/"
   ],
   "prov:wasGeneratedBy": {
     "@type": "SoftwareApplication",
@@ -71,16 +79,12 @@
     "softwareVersion": "0.9",
     "url": "https://nitthanet-nat.github.io/SSS-Schema/"
   },
-  "prov:generatedAtTime": "2025-08-12T15:25:52.863469Z",
+  "prov:generatedAtTime": "2025-08-19T11:49:17.700016Z",
   "prov:wasAttributedTo": {
     "@type": "Organization",
     "name": "DIT"
   },
-  "citation": [
-    "Valentine et al. (…)",
-    "Kızıldağ (…)",
-    "Wölfl et al. (…)"
-  ],
+  "usageInfo": "Processing assumptions and QC thresholds are documented in the repository README.",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -94,7 +98,9 @@
       "@type": "DataDownload",
       "encodingFormat": "application/ld+json",
       "contentUrl": "https://nitthanet-nat.github.io/SSS-Schema/SeabedX_metadata.json",
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentSize": "1290744",
+      "sha256": "3923dcfcfea97f3b2892c80bd9e8852fa590e3365da2ddb1428fda8f7a08787f"
     }
   ],
   "seabedx": {
@@ -46026,8 +46032,7 @@
       "GridResolution": "0.02 m",
       "ProcessingWorkflow": "XTF2Map ETL (pyxtf+GDAL)",
       "License": "CC-BY 4.0",
-      "DOI": "https://github.com/Nitthanet-Nat/SSS-Schema"
+      "DOI": "10.5281/zenodo.xxxxxxx"
     }
-  },
-  "temporalCoverage": "2024-09-29T15:00:19.850000/2024-09-29T15:01:39.520000"
+  }
 }

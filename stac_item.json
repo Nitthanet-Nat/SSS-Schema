@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "seabedx-mosaic",
+  "bbox": [
+    100.78206711162697,
+    12.896576468452382,
+    100.7828975999759,
+    12.897008508311472
+  ],
+  "properties": {
+    "datetime": "2024-09-29T15:00:19.850000Z",
+    "title": "SeabedX-DB Chonburi SSS Mosaic",
+    "license": "CC-BY-4.0"
+  },
+  "geometry": null,
+  "assets": {
+    "mosaic": {
+      "href": "https://nitthanet-nat.github.io/SSS-Schema/SeabedX_mosaic.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://nitthanet-nat.github.io/SSS-Schema/SeabedX_metadata.json",
+      "type": "application/ld+json",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
