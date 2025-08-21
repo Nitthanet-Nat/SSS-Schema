@@ -3,14 +3,20 @@
     "https://schema.org/",
     {
       "prov": "http://www.w3.org/ns/prov#",
-      "dcterms": "http://purl.org/dc/terms/"
+      "dcterms": "http://purl.org/dc/terms/",
+      "sosa": "http://www.w3.org/ns/sosa/"
     }
   ],
   "@type": "Dataset",
-  "@id": "10.5281/zenodo.xxxxxxx",
-  "identifier": "10.5281/zenodo.xxxxxxx",
-  "sameAs": "10.5281/zenodo.xxxxxxx",
-  "name": "SeabedX-DB Demo – Chonburi SSS Mosaic",
+  "@id": "https://doi.org/10.5281/zenodo.xxxxxxx",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "doi",
+    "value": "10.5281/zenodo.xxxxxxx"
+  },
+  "sameAs": "https://doi.org/10.5281/zenodo.xxxxxxx",
+  "mainEntityOfPage": "https://nitthanet-nat.github.io/SSS-Schema/",
+  "name": "SeabedX-DB – Chonburi SSS Mosaic",
   "description": "XTF-derived side-scan sonar mosaic (COG-like) with ping-level JSON-LD metadata.",
   "url": "https://nitthanet-nat.github.io/SSS-Schema/",
   "version": "0.9",
@@ -21,7 +27,7 @@
     "JSON-LD",
     "COG"
   ],
-  "subjectOf": [
+  "about": [
     "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords?format=default#Oceans",
     "http://vocab.nerc.ac.uk/collection/L05/current/156/"
   ],
@@ -79,7 +85,7 @@
     "softwareVersion": "0.9",
     "url": "https://nitthanet-nat.github.io/SSS-Schema/"
   },
-  "prov:generatedAtTime": "2025-08-19T11:49:17.700016Z",
+  "prov:generatedAtTime": "2025-08-19T12:17:16.729118Z",
   "prov:wasAttributedTo": {
     "@type": "Organization",
     "name": "DIT"
@@ -99,8 +105,8 @@
       "encodingFormat": "application/ld+json",
       "contentUrl": "https://nitthanet-nat.github.io/SSS-Schema/SeabedX_metadata.json",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "contentSize": "1290744",
-      "sha256": "3923dcfcfea97f3b2892c80bd9e8852fa590e3365da2ddb1428fda8f7a08787f"
+      "contentSize": "1290976",
+      "sha256": "61f88b897d1d8ffd8d44d452dd7a8fe2325dec1a8fcdbca10962e89d0ae0ac77"
     }
   ],
   "seabedx": {
@@ -46032,7 +46038,7 @@
       "GridResolution": "0.02 m",
       "ProcessingWorkflow": "XTF2Map ETL (pyxtf+GDAL)",
       "License": "CC-BY 4.0",
-      "DOI": "10.5281/zenodo.xxxxxxx"
+      "DOI": "https://doi.org/10.5281/zenodo.xxxxxxx"
     }
   }
 }
