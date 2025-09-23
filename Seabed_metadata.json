@@ -1,9 +1,3 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<title>SeabedX-DB Dataset</title>
-<link rel="license" href="https://www.marine-geo.org/about/terms_of_use.php"/>
-<script type="application/ld+json">
 {
   "@context": [
     "https://schema.org/",
@@ -45873,15 +45867,3 @@
     }
   }
 }
-</script>
-</head>
-<body>
-<h1>SeabedX-DB – Chonburi SSS Mosaic</h1>
-<p><strong>DOI:</strong> 10.1594/IEDA/306159</p>
-<ul>
-  <li><a href="C:\Users\user\Downloads\xtf-seabed-schema\data\outputs\Seabed_metadata.json">Metadata (JSON-LD)</a></li>
-  <li><a href="C:\Users\user\Downloads\xtf-seabed-schema\data\outputs\Seabed_mosaic.tif">COG-like GeoTIFF</a></li>
-  <li><a href="C:\Users\user\Downloads\xtf-seabed-schema\data\outputs\stac_item.json">STAC Item</a></li>
-</ul>
-<p>Contact: <a href="mailto:info@marine-geo.org">info@marine-geo.org</a> • License: <a href="https://www.marine-geo.org/about/terms_of_use.php">https://www.marine-geo.org/about/terms_of_use.php</a></p>
-</body></html>
