@@ -1,69 +1,48 @@
-# SSS-Schema
+# Seabed Mapping Dataset (SeabedX)
 
-This repository contains metadata, schemas, and sample outputs for the **Chonburi Survey** conducted using side-scan sonar equipment. The project aims to demonstrate a standardized metadata schema (SeabedX-Schema) and FAIR-compliant publication pipeline for marine geospatial data.
+## 🧭 Project Summary
 
----
+This dataset contains sonar-based seabed mapping data collected off the coast of Chonburi, Thailand, using side-scan sonar in the XTF format. The dataset has been processed into a visual GeoTIFF mosaic and structured metadata following SeabedX Schema (based on schema.org and STAC).
 
-## 📁 Dataset Contents
+## 📂 Repository Contents
 
-| File | Description |
-|------|-------------|
-| `SeabedX_metadata.json` | JSON-LD metadata file (SeabedX-Schema format) |
-| `SeabedX_mosaic.tif` | GeoTIFF Mosaic of sonar channel 0 data (generated using pyxtf + GDAL) |
-| `edit5.py` | Python ETL pipeline used to parse XTF, extract metadata, and generate GeoTIFF |
+- `SeabedX_mosaic.tif` – GeoTIFF Mosaic
+- `SeabedX_metadata.json` – Dataset metadata in JSON-LD (schema.org)
+- `coverage_report.json` – Field coverage evaluation
+- `cq_results.json` – Competency query output
+- `stac_item.json` – STAC-compliant metadata
+- `index.html` – Landing page (for GitHub Pages)
 
----
-
-## 🧭 Project Metadata
+## 🔖 Metadata
 
 | Field | Value |
 |-------|-------|
-| **Project Name** | Chonburi Survey |
-| **Survey Date** | 2025-02-24 |
-| **Operator** | Marine Institute |
-| **Sonar Model** | Humminbird |
-| **Grid Resolution** | 1.0 meter |
-| **Processing Workflow** | `pyxtf + GDAL` |
-| **License** | CC-BY 4.0 |
-| **DOI** | [`10.1234/chonburi.survey.2025`](https://doi.org/10.1234/chonburi.survey.2025) |
+| Project Name | Chonburi Survey |
+| Survey Date | 2025-02-24 |
+| Operator | Marine Institute |
+| Creator | Nitthanet Nat |
+| Creator ORCID | https://orcid.org/0000-0000-0000-0000 |
+| Publisher | RSU Data Lab |
+| License | CC-BY 4.0 |
+| DOI | (If available from Zenodo) |
+| Landing Page | https://github.com/Nitthanet-Nat/SSS-Schema |
+| Grid Resolution | 1.0 m |
+| Sonar Model | Humminbird |
+| Instrument PID | (If available from NERC L22) |
+| Workflow | Python ETL (pyxtf + GDAL) |
+| QC Thresholds | Roll < 5°, Pitch < 5°, Depth > 10 m |
 
----
+## 📘 How to Use
 
-## 🌐 Data Access
+You can load `SeabedX_mosaic.tif` into QGIS or ArcGIS. Metadata is available in JSON-LD for programmatic access.
 
-### 🔗 GeoTIFF Mosaic
+## 📄 Citation
 
-> *Note: This is a placeholder link to demonstrate FAIR-A compliance during prototyping.*
-
-- 📥 Download: [`SeabedX_mosaic.tif`](https://zenodo.org/record/1234567/files/SeabedX_mosaic.tif)
-- 📐 Format: GeoTIFF
-- 🔒 License: CC-BY 4.0
-- 🔑 SHA-256 Checksum: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
-
----
-
-## 🧪 FAIR Metadata (JSON-LD)
-
-- The metadata file `SeabedX_metadata.json` follows the [Schema.org Dataset](https://schema.org/Dataset) and [SeabedX-Schema](https://schema.org/) extensions.
-- It includes:
-  - Dataset-level info (ProjectName, DOI, BoundingBox)
-  - Ping-level sensor data (Pitch, Roll, Altitude, etc.)
-  - Product info (License, Resolution, Format)
-
-> 💡 Use this file to register your dataset in FAIR Data Portals, Zenodo, MGDS, or as supplementary material in publications.
-
----
-
-## 📞 Contact
-
-- **Creator**: Dr. John Anderson  
-- **Affiliation**: Marine Geoscience Data System (MGDS)  
-- **Email**: `j.anderson@mgds.org`  
-- **ORCID**: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
-
----
-
-## 🛠️ How to Reproduce
-
-```bash
-python edit5.py
+```bibtex
+@dataset{SeabedX2025,
+  author = {Nitthanet Nat},
+  title = {Seabed Mapping Dataset: Chonburi Survey (2025)},
+  year = {2025},
+  publisher = {RSU Data Lab},
+  doi = {10.1234/chonburi.survey.2025}
+}
