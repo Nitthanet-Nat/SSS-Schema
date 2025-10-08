@@ -17,13 +17,13 @@
     {
       "@type": "PropertyValue",
       "propertyID": "URL",
-      "value": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets"
+      "value": "https://github.com/Nitthanet-Nat/SSS-Schema.git"
     }
   ],
   "sameAs": "10.1594/IEDA/306159",
   "name": "SeabedX-DB – Chonburi SSS Mosaic",
   "description": "XTF-derived side-scan sonar mosaic (COG-like) with ping-level JSON-LD metadata.",
-  "url": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets",
+  "url": "https://github.com/Nitthanet-Nat/SSS-Schema.git",
   "version": "1.0.0",
   "keywords": [
     "side-scan sonar",
@@ -93,9 +93,9 @@
     "@type": "SoftwareApplication",
     "name": "XTF2Map ETL (pyxtf+GDAL)",
     "softwareVersion": "1.0.0",
-    "url": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets"
+    "url": "https://github.com/Nitthanet-Nat/SSS-Schema.git"
   },
-  "prov:generatedAtTime": "2025-09-23T07:44:41.039458Z",
+  "prov:generatedAtTime": "2025-10-08T06:33:05.495971Z",
   "prov:wasAttributedTo": {
     "@type": "Organization",
     "name": "MGDS"
@@ -104,7 +104,7 @@
     {
       "@type": "DataDownload",
       "encodingFormat": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "contentUrl": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_mosaic.tif",
+      "contentUrl": "https://github.com/Nitthanet-Nat/SSS-Schema.git/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_mosaic.tif",
       "contentSize": "51330074",
       "sha256": "542e80ac12a4e40d89c57e074700eaa5cb448ad821b364c9c406961e0772c73d",
       "license": "https://www.marine-geo.org/about/terms_of_use.php"
@@ -112,10 +112,10 @@
     {
       "@type": "DataDownload",
       "encodingFormat": "application/ld+json",
-      "contentUrl": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_metadata.json",
+      "contentUrl": "https://github.com/Nitthanet-Nat/SSS-Schema.git/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_metadata.json",
       "license": "https://www.marine-geo.org/about/terms_of_use.php",
-      "contentSize": "1265961",
-      "sha256": "3c13dca2b99954b371e77da90b4e2ecd9da8c1110cda485fed01e2b1ac0bb41b"
+      "contentSize": "1265816",
+      "sha256": "c58e3b0b4c8f0ee4958a22cb2437ce9f34cb9199eba06576361f32d18d65167b"
     }
   ],
   "seabedx": {

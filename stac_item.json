@@ -16,14 +16,14 @@
   "geometry": null,
   "assets": {
     "mosaic": {
-      "href": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_mosaic.tif",
+      "href": "https://github.com/Nitthanet-Nat/SSS-Schema.git/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_mosaic.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "roles": [
         "data"
       ]
     },
     "metadata": {
-      "href": "https://www.marine-geo.org/tools/search/Files.php?data_set_uid=6159#datasets/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_metadata.json",
+      "href": "https://github.com/Nitthanet-Nat/SSS-Schema.git/C:\\Users\\user\\Downloads\\xtf-seabed-schema\\data\\outputs\\Seabed_metadata.json",
       "type": "application/ld+json",
       "roles": [
         "metadata"
